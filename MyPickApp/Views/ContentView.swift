@@ -14,12 +14,15 @@ struct ContentView: View {
     
     var body: some View {
         
-        
-        List(model.list) {item in
-            Text(item.name)
+        VStack {
+            
+            List(model.list) {item in
+                Text(item.name)
+            }
+            
+            Divider()
+            
         }
-        
-        
     }
     
     init() {
