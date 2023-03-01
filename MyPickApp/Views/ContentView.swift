@@ -21,6 +21,7 @@ struct ContentView: View {
             }
             
             Divider()
+                .frame(width: 0.0, height: 0.0)
             
         }
     }
