@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6028A46F29AFD33E003947D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6028A46E29AFD33E003947D5 /* Main.storyboard */; };
+		6028A47129AFD39D003947D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6028A47029AFD39D003947D5 /* LaunchScreen.storyboard */; };
+		6028A47729AFD4BD003947D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028A47629AFD4BD003947D5 /* LoginViewController.swift */; };
+		6028A47929AFD566003947D5 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028A47829AFD566003947D5 /* CreateProfileViewController.swift */; };
+		6028A47D29AFDEE0003947D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028A47C29AFDEE0003947D5 /* HomeViewController.swift */; };
+		6028A47F29AFDF5A003947D5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028A47E29AFDF5A003947D5 /* AccountViewController.swift */; };
+		6028A48229AFE31C003947D5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6028A48129AFE31C003947D5 /* SearchViewController.swift */; };
 		6053C5F729A54A25000E1A77 /* MyPickAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6053C5F629A54A25000E1A77 /* MyPickAppApp.swift */; };
 		6053C5F929A54A25000E1A77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6053C5F829A54A25000E1A77 /* ContentView.swift */; };
 		6053C5FB29A54A27000E1A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6053C5FA29A54A27000E1A77 /* Assets.xcassets */; };
@@ -20,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6028A46E29AFD33E003947D5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6028A47029AFD39D003947D5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6028A47629AFD4BD003947D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6028A47829AFD566003947D5 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		6028A47C29AFDEE0003947D5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6028A47E29AFDF5A003947D5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		6028A48129AFE31C003947D5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6053C5F329A54A25000E1A77 /* MyPickApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPickApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6053C5F629A54A25000E1A77 /* MyPickAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickAppApp.swift; sourceTree = "<group>"; };
 		6053C5F829A54A25000E1A77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +59,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6028A46D29AFD1EE003947D5 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6028A46E29AFD33E003947D5 /* Main.storyboard */,
+				6028A47029AFD39D003947D5 /* LaunchScreen.storyboard */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		6028A47229AFD41E003947D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6028A47329AFD46A003947D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6028A47629AFD4BD003947D5 /* LoginViewController.swift */,
+				6028A47829AFD566003947D5 /* CreateProfileViewController.swift */,
+				6028A47C29AFDEE0003947D5 /* HomeViewController.swift */,
+				6028A47E29AFDF5A003947D5 /* AccountViewController.swift */,
+				6028A48129AFE31C003947D5 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6028A47B29AFDE95003947D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6053C5EA29A54A25000E1A77 = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +113,15 @@
 		6053C5F529A54A25000E1A77 /* MyPickApp */ = {
 			isa = PBXGroup;
 			children = (
+				6028A47B29AFDE95003947D5 /* View */,
+				6028A47329AFD46A003947D5 /* ViewControllers */,
 				6053C61629A56AA0000E1A77 /* Info.plist */,
 				6053C5F629A54A25000E1A77 /* MyPickAppApp.swift */,
+				6028A47229AFD41E003947D5 /* Helpers */,
 				6053C61029A55135000E1A77 /* ViewModels */,
 				6053C60F29A55127000E1A77 /* Views */,
 				6053C61329A55156000E1A77 /* Models */,
+				6028A46D29AFD1EE003947D5 /* Tabs */,
 				6053C60429A54A69000E1A77 /* GoogleService-Info.plist */,
 				6053C5FA29A54A27000E1A77 /* Assets.xcassets */,
 				6053C5FC29A54A27000E1A77 /* Preview Content */,
@@ -175,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6053C5FE29A54A27000E1A77 /* Preview Assets.xcassets in Resources */,
+				6028A46F29AFD33E003947D5 /* Main.storyboard in Resources */,
 				6053C5FB29A54A27000E1A77 /* Assets.xcassets in Resources */,
+				6028A47129AFD39D003947D5 /* LaunchScreen.storyboard in Resources */,
 				6053C60529A54A69000E1A77 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,10 +242,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6028A47729AFD4BD003947D5 /* LoginViewController.swift in Sources */,
 				6053C5F929A54A25000E1A77 /* ContentView.swift in Sources */,
+				6028A47F29AFDF5A003947D5 /* AccountViewController.swift in Sources */,
+				6028A48229AFE31C003947D5 /* SearchViewController.swift in Sources */,
 				6053C61529A552E7000E1A77 /* Services.swift in Sources */,
 				6053C61229A5514E000E1A77 /* ViewModel.swift in Sources */,
+				6028A47929AFD566003947D5 /* CreateProfileViewController.swift in Sources */,
 				6053C5F729A54A25000E1A77 /* MyPickAppApp.swift in Sources */,
+				6028A47D29AFDEE0003947D5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
